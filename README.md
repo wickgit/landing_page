@@ -5,3 +5,4 @@ d(-_-)b
 # The goal: 
 To get more experience working with HTML and CSS.
  
+Started: 12.03.2022
