@@ -15,6 +15,7 @@ body {
     gap: 60px;
     align-items: center;
     padding-bottom: 46px;
+    height: 380px;
 }
 
 .logo {
@@ -118,22 +119,96 @@ body {
     color: #F9FAF8;
 }
 
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+}
+
+.top-text {
+    font-size: 36px;
+    color: #333;
+}
+
+.bottom-text {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 600;
+    padding-right: 34px;
+}
+
 .footer {
     display: flex;
     background-color: #1F2937;
-    padding: 25px;
+    height: 98px;
     color: #E5E7EB;
     justify-content: center;
-    font-size: 14px;
+    align-items: center;
+    font-size: 17px;
 }
 
+.sign-up {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
 
+.sign-up-panel {
+    display: flex;
+    padding: 60px 104px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 850px;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+.sign-up-panel button{
+    height: 40px;
+    width: 130px;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    border-color: #E5E7EB;
+    border-radius: 8px;
+    border-style: solid;
+    font-size: 18px;
+    font-weight: 600;
+    border-width: 3px;
+}
+
+.sign-up-text span {
+    color:#E5E7EB;
+    font-size: 20px;
+}
+
+.sign-up-text span:first-child {
+    font-size: 26px;
+    font-weight: 600;
+}
 
 ul {
     list-style: none;
     display: flex;
-    gap: 18px;
+    gap: 22px;
     color: white;
     align-items: center;
     font-size: 18px;
+    color: #E5E7EB
 }
