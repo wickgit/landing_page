@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: 'Roboto', sens-serif;
 }
 
 .header,
@@ -82,12 +85,14 @@ body {
 .panels {
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 32px;
 }
 
 .panel {
     display: flex;
     flex-direction: column;
-    width: 210px;
+    width: 180px;
 }
 
 .panel p {
@@ -98,12 +103,13 @@ body {
 }
 
 .panel .panel-img {
-    height: 210px;
-    width: 210px;
+    height: 180px;
+    width: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-style: solid;
+    border-width: 5px;
     border-color: #3882F6;
     border-radius: 14px;
     box-sizing: border-box;
@@ -173,6 +179,7 @@ body {
     width: 850px;
     height: 40px;
     justify-content: space-between;
+    
 }
 
 .sign-up-text {
