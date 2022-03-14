@@ -8,14 +8,14 @@ body {
 .top-block {
     display: flex;
     background-color: #1F2937;
-    justify-content: center;
 }
 
 .top-block {
     gap: 60px;
     align-items: center;
     padding-bottom: 46px;
-    height: 380px;
+    height: 420px;
+    justify-content: center;
 }
 
 .logo {
@@ -31,8 +31,8 @@ body {
 }
 
 .top-left {
-    width: 540px;
-    height: 230px;
+    width: 650px;
+    height: 240px;
 }
 
 .top-left button {
@@ -55,8 +55,8 @@ body {
     align-items: center;
     display: flex;
     text-align: center;
-    width: 300px;
-    height: 160px;
+    width: 380px;
+    height: 220px;
     background-color: #E5E7EB;
     font-size: 14px;
 }
@@ -111,7 +111,9 @@ body {
 
 .header {
     height: 80px;
-    gap: 500px;
+    gap: 580px;
+    justify-content: space-between;
+    padding: 0px 240px;
 }
 
 .logo {
