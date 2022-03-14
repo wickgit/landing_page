@@ -111,7 +111,6 @@ body {
 
 .header {
     height: 80px;
-    gap: 580px;
     justify-content: space-between;
     padding: 0px 240px;
 }
@@ -212,5 +211,6 @@ ul {
     color: white;
     align-items: center;
     font-size: 18px;
-    color: #E5E7EB
+    color: #E5E7EB;
+    padding-left: 0px;
 }
